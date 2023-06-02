@@ -40,7 +40,7 @@ const DetailSection = () => {
         </div>
         <p className=" mb-2">Last edited • Yesterday, 9:02 PM</p>
         <p>Added to contacts • Yesterday, 9:02 PM</p>
-        <Link to={"/contacts"}><button className="btn-sm btn-primary my-3 ">Go Back</button></Link>
+        <Link to={"/"}><button className="btn-sm btn-primary my-3 ">Go Back</button></Link>
       </div>
       
     </div>

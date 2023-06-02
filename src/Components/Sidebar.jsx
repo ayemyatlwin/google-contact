@@ -86,7 +86,7 @@ export default function Sidebar({children}) {
               <i>
                 <GoPerson className="w-7 h-7 text-primary" />
               </i>
-              <Link to={"/contacts"} className=" ms-4  font-semibold normal-case text-2xl tracking-wider text-primary">
+              <Link to={"/"} className=" ms-4  font-semibold normal-case text-2xl tracking-wider text-primary">
                 Contact
               </Link>
             </div>
@@ -155,7 +155,7 @@ export default function Sidebar({children}) {
             className="mt-3 p-2 dropdown-content    text-secondary  w-52"
           >
             <li className=" rounded-box">
-              <Link to={"/contacts"}>
+              <Link to={"/"}>
                 <i>
                   <RxPerson className="w-5 h-5" />
                 </i>
