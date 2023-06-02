@@ -20,12 +20,12 @@ const CreateForm = () => {
           <input
             type="text"
             placeholder="First Name"
-            className={`input w-full max-w-xs border-[#81CFD1] hover:border-[#2c6f71] block mb-3`}
+            className={`input w-full max-w-xs border-primary hover:border-[#2c6f71] block mb-3`}
           />
           <input
             type="text"
             placeholder="Last Name"
-            className="input w-full max-w-xs border-[#81CFD1] block mb-3 "
+            className="input w-full max-w-xs border-primary block mb-3 "
           />
         </div>
       </div>
@@ -37,12 +37,12 @@ const CreateForm = () => {
           <input
             type="text"
             placeholder="Company"
-            className="input w-full max-w-xs border-[#81CFD1] block mb-3"
+            className="input w-full max-w-xs border-primary block mb-3"
           />
           <input
             type="text"
             placeholder="Job Title"
-            className="input w-full max-w-xs border-[#81CFD1] block mb-3"
+            className="input w-full max-w-xs border-primary block mb-3"
           />
         </div>
       </div>
@@ -54,7 +54,7 @@ const CreateForm = () => {
           <input
             type="text"
             placeholder="Email"
-            className="input w-full max-w-xs border-[#81CFD1] block mb-3"
+            className="input w-full max-w-xs border-primary block mb-3"
           />
         </div>
       </div>
@@ -67,7 +67,7 @@ const CreateForm = () => {
           <input
             type="text"
             placeholder="Phone"
-            className="input w-full max-w-xs border-[#81CFD1] block mb-3"
+            className="input w-full max-w-xs border-primary block mb-3"
           />
         </div>
       </div>
@@ -81,7 +81,7 @@ const CreateForm = () => {
             <input
               type="text"
               placeholder="Address"
-              className="input w-full max-w-xs border-[#81CFD1] block mb-3"
+              className="input w-full max-w-xs border-primary block mb-3"
             />
           </div>
         </div>
@@ -94,7 +94,7 @@ const CreateForm = () => {
             <input
               type="text"
               placeholder="Birthday"
-              className="input w-full max-w-xs border-[#81CFD1] block mb-3"
+              className="input w-full max-w-xs border-primary block mb-3"
             />
           </div>
         </div>
@@ -106,7 +106,7 @@ const CreateForm = () => {
             <input
               type="text"
               placeholder="Note"
-              className="input w-full max-w-xs border-[#81CFD1] block mb-3"
+              className="input w-full max-w-xs border-primary block mb-3"
             />
           </div>
         </div>

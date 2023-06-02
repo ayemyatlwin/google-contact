@@ -14,8 +14,8 @@ const EditContact = () => {
 
 
   return (
-    <div className=" w-full flex justify-start items-start h-screen max-w-xs">
-      <form className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
+    <div className=" flex   justify-center items-center h-screen ">
+      <form className="bg-white  shadow-md rounded px-8 pt-6 pb-8 mb-4">
         <h1 className=" font-semibold text-2xl tracking-wider my-6">Edit contact detail</h1>
         <div className="mb-4">
           <label
@@ -104,6 +104,7 @@ const EditContact = () => {
           </Link>
         </div>
       </form>
+
     </div>
   );
 };

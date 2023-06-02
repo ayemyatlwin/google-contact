@@ -21,13 +21,14 @@ const DetailHead = ({contactDetail}) => {
         <div className=" flex flex-col md:flex-row justify-start items-center gap-10 mt-16">
         
         <span
-        className="myLabel text-6xl text-white font-bold "
+        className="myLabel text-6xl text-white font-bold bg-primary capitalize "
         >
-        Y
+        {contactDetail?.name?.firstname[0]}
         </span>
-        <button className="w-[120px] h-[50px] md:w-[30px] md:h-[30px] px-1 border-2 border-zinc-300 rounded-full inline-block ">
+        <p className=" capitalize text-3xl font-semibold">{contactDetail?.name?.firstname+" "+contactDetail?.name?.lastname}</p>
+        <button className="w-[120px] h-[50px] md:w-[30px] md:h-[30px] px-1 border-2 border-zinc-300 rounded-full inline-block lg:hidden ">
         <span className=" flex justify-center items-center text-2xl font-bold">
-        <MdEdit />
+        <MdEdit className=" lg:hidden" />
         <span className="ml-2 block md:hidden"> Edit</span>
         </span>
         </button>
@@ -82,7 +83,7 @@ const DetailHead = ({contactDetail}) => {
         </li>
         </ul>
         </div>
-        <button className=" hidden md:block w-[100px] h-[50px] py-3 px-5 bg-[#81CFD1] text-white mySave">
+        <button className=" hidden md:block w-[100px] h-[50px] py-3 px-5 bg-primary text-white mySave">
         Edit
         </button>
         </div>

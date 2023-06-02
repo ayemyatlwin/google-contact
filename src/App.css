@@ -27,8 +27,7 @@ input[type="file"]{
   display: none;
 }
 
-/* label,.myLabel{
-  background-color: #81CFD1;
+.myLabel{
   width: 130px;
   height: 130px;
   border-radius: 100%;
@@ -36,4 +35,4 @@ input[type="file"]{
   justify-content: center;
   align-items: center;
   font-size: 50px;
-} */
+}
