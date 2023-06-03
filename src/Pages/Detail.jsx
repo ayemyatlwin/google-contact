@@ -9,7 +9,7 @@ const Detail = () => {
   return (
     <div className=' container mx-auto'>
         <DetailHead contactDetail={location?.state} />
-        <DetailSection/>
+        <DetailSection contactDetail={location?.state}/>
     </div>
   )
 }

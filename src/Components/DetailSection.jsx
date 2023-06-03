@@ -5,7 +5,7 @@ import { FaBirthdayCake } from "react-icons/fa";
 import { GrCircleQuestion } from "react-icons/gr";
 import { Link } from "react-router-dom";
 
-const DetailSection = () => {
+const DetailSection = ({contactDetail}) => {
   return (
     <>
     
@@ -14,21 +14,21 @@ const DetailSection = () => {
         <p className=" font-semibold mb-2">Contact details</p>
         <p className="flex justify-start items-center gap-3 mb-2">
           <BsTelephone />
-          <Link>
-            <span className=" text-blue-600">Add Phone</span>
-          </Link>{" "}
+          <a>
+            <span className=" text-blue-600">+ {contactDetail?.phone}</span>
+          </a>{" "}
         </p>
         <p className="flex justify-start items-center gap-3 mb-2">
           <MdOutlineMail />
-          <Link>
-            <span className=" text-blue-600">Add Email</span>
-          </Link>
+          <a>
+            <span className=" text-blue-600">{contactDetail?.email}</span>
+          </a>
         </p>
         <p className="flex justify-start items-center gap-3 mb-2">
           <FaBirthdayCake />
-          <Link>
+          <a>
             <span className=" text-blue-600">Add Birthday</span>
-          </Link>
+          </a>
         </p>
       </div>
       <div className=" md:basis-1/2 ">
